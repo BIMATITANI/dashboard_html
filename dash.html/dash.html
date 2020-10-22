@@ -2,22 +2,73 @@
 <html>
 
 <head>
-    <title>titan</title>
+    <title>Titani</title>
+
+    <style>
+        table {
+            font-family: "Times New Roman";
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 2px;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: brown;
+        }
+
+        tr:hover {
+            background-color: azure;
+        }
+        tr{
+            background-color: red;
+        }
+
+        th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: center;
+            background-color: aqua;
+        }
+    </style>
 </head>
-<style>
-    .table{
-        background-color: white;
-        
-    }
-
-
-
-</style>
-
-
 
 <body>
-    
+    <h1>To Do List</h1>
+    <table>
+        <td><a href="google.com">+add</a></td>
+        <tr>
+            <th rowspan="2">no</th>
+            <th rowspan="2">Pemberi Tugas</th>
+            <th rowspan="2">Deskripsi Pekerjaan</th>
+            <th colspan="2">Object Pekerjaan</th>
+            <th rowspan="2">pekerja</th>
+            <th rowspan="2">Job ID</th>
+            <th rowspan="2">Status</th>
+            <th rowspan="2">Result</th>
+            <th rowspan="2">Review</th>
+        </tr>
+        <tr>
+            <td>Dokumen</td>
+            <td>Dokument Terkait</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>titan</td>
+            <td>aweawe</td>
+            <td>mie kardus</td>
+            <td>pake telur</td>
+            <td>wowok</td>
+            <td>123</td>
+            <td>wajib dikerjakan</td>
+            <td>belum ada</td>
+            <td>Pak longkey</td>
+        </tr>
+    </table>
 
 </body>
 
